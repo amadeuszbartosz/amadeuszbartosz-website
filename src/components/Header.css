@@ -2,41 +2,49 @@
   display: flex;
   justify-content: center;
   padding: 20px;
-  background-color: white;
+  background-color: transparent;
   color: #3B82F6;
+  width: auto;
+  position: fixed; /* Ensure the header is fixed at the top */
+  top: 0;
+  z-index: 10;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 40px;
-  width: 100%;
-  max-width: 800px;
-  justify-content: space-evenly;
+  gap: 300px;
+  width: auto; /* Remove width constraint */
+  justify-content: space-around; /* Distribute links evenly */
   padding: 0;
   margin: 0;
 }
 
 .nav-links li {
   position: relative;
+  flex: none; /* Remove flex: 1 to prevent stretching */
 }
 
 .nav-links li a {
   color: #3B82F6;
   text-decoration: none;
   font-size: 1.2rem;
+  display: block;
+  text-align: left; /* Left-align the text */
+  position: relative;
+  white-space: nowrap;
 }
 
 .nav-links li a::before {
   content: '';
   position: absolute;
-  top: -10px;
+  top: -5px; /* Position the line above the text */
   left: 0;
   right: 0;
   height: 2px;
   background-color: #3B82F6;
   transform: scaleX(0);
-  transform-origin: center;
+  transform-origin: left; /* Line grows from the left */
   transition: transform 0.3s ease;
 }
 

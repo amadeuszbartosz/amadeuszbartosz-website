@@ -5,20 +5,26 @@
   overflow: hidden;
   padding: 20px;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px; /* Increase the gap for more breathing room */
   width: 100%;
-  height: auto; /* Let the grid height be adaptive to content */
+  max-width: 1200px; /* Limit the width of the grid */
+  margin: 0 auto; /* Center the grid */
+  height: 100%; /* Ensure the grid takes full height */
 }
 
 .grid-item {
   position: relative;
   overflow: hidden;
-  height: calc(var(--min-size) + var(--max-size));
+  height: auto; /* Adjust height to fit content */
 }
 
 .grid-item img,

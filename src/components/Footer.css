@@ -1,0 +1,36 @@
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  color: #3B82F6;
+  border-top: 1px solid #ccc;
+  width: 100%; /* Ensure the footer stretches the entire width */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.footer-links a {
+  color: #3B82F6;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-icons a {
+  color: #3B82F6;
+  font-size: 1.5rem;
+}
+
+.footer-icons a:hover {
+  color: #1c4f9b;
+}
+
+.footer-copyright {
+  font-size: 0.8rem;
+  color: #3B82F6;
+}
