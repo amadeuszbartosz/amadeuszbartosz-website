@@ -1,0 +1,45 @@
+.main-header {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: white;
+  color: #3B82F6;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  width: 100%;
+  max-width: 800px;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  position: relative;
+}
+
+.nav-links li a {
+  color: #3B82F6;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.nav-links li a::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #3B82F6;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
+.nav-links li a:hover::before {
+  transform: scaleX(1);
+}
