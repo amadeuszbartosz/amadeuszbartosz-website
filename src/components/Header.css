@@ -2,9 +2,9 @@
   display: flex;
   justify-content: center;
   padding: 20px;
-  background-color: transparent;
+  background-color: transparent; /* Make header transparent */
   color: #3B82F6;
-  width: auto;
+  width: 100%; /* Stretch header across the entire width */
   position: fixed; /* Ensure the header is fixed at the top */
   top: 0;
   z-index: 10;
@@ -14,8 +14,8 @@
   list-style: none;
   display: flex;
   gap: 300px;
-  width: auto; /* Remove width constraint */
-  justify-content: space-around; /* Distribute links evenly */
+  width: 100%; /* Stretch links across the entire width */
+  justify-content: center; /* Center the links */
   padding: 0;
   margin: 0;
 }
@@ -30,7 +30,7 @@
   text-decoration: none;
   font-size: 1.2rem;
   display: block;
-  text-align: left; /* Left-align the text */
+  text-align: center; /* Center-align the text */
   position: relative;
   white-space: nowrap;
 }

@@ -24,7 +24,7 @@ header {
   width: 100%;
   background-color: #f8f9fa;
   padding: 1rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: none; /* Remove shadow */
   flex: 0 0 auto; /* Ensure header does not shrink */
 }
 
@@ -44,11 +44,13 @@ header {
 }
 
 footer {
-  flex-shrink: 0; /* Ensure footer does not shrink */
-  width: 100%;
-  background-color: #f8f9fa;
+  flex-shrink: 0;
+  width: 100%; /* Stretch footer across the entire width */
+  background-color: transparent; /* Make footer transparent */
   padding: 1rem;
-  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: none; /* Remove shadow */
+  display: flex;
+  justify-content: center; /* Center the content */
 }
 
 .App-logo {
