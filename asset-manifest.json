@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/amadeuszbartosz/amadeuszbartosz-website/static/css/main.e6873886.css",
+    "main.js": "/amadeuszbartosz/amadeuszbartosz-website/static/js/main.1cf31203.js",
+    "static/js/453.f9fad113.chunk.js": "/amadeuszbartosz/amadeuszbartosz-website/static/js/453.f9fad113.chunk.js",
+    "static/media/image1.jpg": "/amadeuszbartosz/amadeuszbartosz-website/static/media/image1.411035bd3f2c6e101e5b.jpg",
+    "static/media/image2.jpg": "/amadeuszbartosz/amadeuszbartosz-website/static/media/image2.e6d8a4b7ad69b037bd6d.jpg",
+    "static/media/image3.jpg": "/amadeuszbartosz/amadeuszbartosz-website/static/media/image3.9ec912983b49ec60b92f.jpg",
+    "static/media/image4.jpg": "/amadeuszbartosz/amadeuszbartosz-website/static/media/image4.1dda29a5b92bd5994c79.jpg",
+    "index.html": "/amadeuszbartosz/amadeuszbartosz-website/index.html",
+    "main.e6873886.css.map": "/amadeuszbartosz/amadeuszbartosz-website/static/css/main.e6873886.css.map",
+    "main.1cf31203.js.map": "/amadeuszbartosz/amadeuszbartosz-website/static/js/main.1cf31203.js.map",
+    "453.f9fad113.chunk.js.map": "/amadeuszbartosz/amadeuszbartosz-website/static/js/453.f9fad113.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6873886.css",
+    "static/js/main.1cf31203.js"
+  ]
+}
